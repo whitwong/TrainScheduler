@@ -1,0 +1,28 @@
+body {
+	background-image: url("../../assets/images/cloudy-day.png");
+	font-family: 'Michroma', sans-serif;
+}
+.jumbotron {
+	text-align: center;
+	background-image: url("../../assets/images/clouds.jpg");
+	color: #fff;
+}
+.panel-heading {
+	background-image: url("../../assets/images/clouds.jpg");
+}
+.panel-title {
+	color: #fff;
+}
+td, th {
+	text-align: center;
+}
+tr:nth-child(even){
+	background-color: #f2f2f2;
+}
+.remove {
+	background: #E96E53;
+	border: 2px solid #7a7474;
+}
+.remove:hover {
+	background: #E9AC53;
+}

@@ -22,7 +22,15 @@ tr:nth-child(even){
 .remove {
 	background: #E96E53;
 	border: 2px solid #7a7474;
+	outline: none;
+	border-radius: 3px;
 }
 .remove:hover {
 	background: #E9AC53;
+}
+#submit {
+	outline: none;
+}
+#submit:hover {
+	background: #80E96B;
 }

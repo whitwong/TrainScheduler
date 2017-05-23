@@ -79,7 +79,7 @@ $(document).ready(function(){
   console.log("The read failed: " + errorObject.code);
   });
 
-  //Removing rows and deleting information from database
+  //Removing train information and deleting information from database
   $(document).on("click", ".remove", function(){
     var dataKey=$(this).attr("id");
     database.ref().child(dataKey).remove();
